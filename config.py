@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     db_url: str = "sqlite:///./shortener.db"
 
     class Config:
-        env_file = "/Users/adrianadewunmi/PyCharm/GitHub_Projects/URL-Shortener-FastAPI-Python/.env"
+        env_file = "/Users/aryan750/gh/url_shortner_python/.env"
 
 
 @lru_cache
